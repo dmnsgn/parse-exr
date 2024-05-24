@@ -1,0 +1,37 @@
+{
+  "name": "parse-exr",
+  "version": "1.0.0",
+  "description": "EXR file parser. Ported from Three.js implementation without depending on it.",
+  "keywords": [
+    "exr",
+    "parser",
+    "webgl"
+  ],
+  "homepage": "https://github.com/dmnsgn/parse-exr",
+  "bugs": "https://github.com/dmnsgn/parse-exr/issues",
+  "repository": "dmnsgn/parse-exr",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://paypal.me/dmnsgn"
+    },
+    {
+      "type": "individual",
+      "url": "https://commerce.coinbase.com/checkout/56cbdf28-e323-48d8-9c98-7019e72c97f3"
+    }
+  ],
+  "license": "MIT",
+  "author": "Damien Seguin (https://github.com/dmnsgn)",
+  "sideEffects": false,
+  "type": "module",
+  "exports": "./index.js",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "dependencies": {
+    "fflate": "^0.8.2"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.5.1"
+  }
+}
