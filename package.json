@@ -1,6 +1,6 @@
 {
   "name": "parse-exr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EXR file parser. Ported from Three.js implementation without depending on it.",
   "keywords": [
     "exr",
@@ -9,7 +9,10 @@
   ],
   "homepage": "https://github.com/dmnsgn/parse-exr",
   "bugs": "https://github.com/dmnsgn/parse-exr/issues",
-  "repository": "dmnsgn/parse-exr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmnsgn/parse-exr.git"
+  },
   "funding": [
     {
       "type": "individual",
