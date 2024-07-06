@@ -24,7 +24,12 @@
   "author": "Damien Seguin (https://github.com/dmnsgn)",
   "sideEffects": false,
   "type": "module",
-  "exports": "./index.js",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./index.js"
+    }
+  },
   "main": "index.js",
   "types": "types/index.d.ts",
   "dependencies": {
@@ -32,6 +37,14 @@
   },
   "engines": {
     "node": ">=22.0.0",
-    "npm": ">=10.5.1"
+    "npm": ">=10.5.1",
+    "snowdev": ">=2.2.x"
+  },
+  "snowdev": {
+    "resolve": {
+      "exclude": [
+        "**/fflate/esm/index.mjs"
+      ]
+    }
   }
 }
