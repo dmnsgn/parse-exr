@@ -211,8 +211,8 @@ const DataUtils = {
  * @property {number} width
  * @property {number} height
  * @property {Uint16Array|Float32Array} data
- * @property {1023|1028} format
- * @property {""|srgb-linear} colorSpace
+ * @property {1023|1028} RGBAFormat (1023) or RedFormat (1028) format 
+ * @property {""|"srgb-linear"} colorSpace
  */
 
 /**
