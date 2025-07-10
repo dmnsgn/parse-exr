@@ -1,6 +1,6 @@
 {
   "name": "parse-exr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "EXR file parser. Ported from Three.js implementation without depending on it.",
   "keywords": [
     "exr",

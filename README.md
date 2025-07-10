@@ -75,14 +75,14 @@ Parse a buffer and return EXR data
 **Kind**: global typedef
 **Properties**
 
-| Name       | Type                                                  |
-| ---------- | ----------------------------------------------------- |
-| header     | <code>object</code>                                   |
-| width      | <code>number</code>                                   |
-| height     | <code>number</code>                                   |
-| data       | <code>Uint16Array</code> \| <code>Float32Array</code> |
-| format     | <code>1023</code> \| <code>1028</code>                |
-| colorSpace | <code>&quot;&quot;</code> \| <code>srgb-linear</code> |
+| Name       | Type                                                              | Description                           |
+| ---------- | ----------------------------------------------------------------- | ------------------------------------- |
+| header     | <code>object</code>                                               |                                       |
+| width      | <code>number</code>                                               |                                       |
+| height     | <code>number</code>                                               |                                       |
+| data       | <code>Uint16Array</code> \| <code>Float32Array</code>             |                                       |
+| format     | <code>1023</code> \| <code>1028</code>                            | RGBAFormat (1023) or RedFormat (1028) |
+| colorSpace | <code>&quot;&quot;</code> \| <code>&quot;srgb-linear&quot;</code> |                                       |
 
 <!-- api-end -->
 
